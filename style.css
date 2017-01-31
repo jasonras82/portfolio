@@ -9,15 +9,20 @@ html, body {
 body {
   margin: 0;
   padding: 0;
-  height: 200vh;
+  height: 100vh;
   min-height: 100vh;
   background-color: #fff;
   padding-bottom: 70px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.navbar {
+  margin-bottom: 0px;
 }
 
 .hero {
   width: 100%;
-  height: 100vh;
+  height: calc(100vh - 50px);
   background-image: url("images/mount-timpanogos-bw.jpg");
   background-size: cover;
   background-position: center center;
@@ -27,11 +32,9 @@ body {
   z-index: 0;
 }
 
-
-
 .name {
   margin: 0 auto;
-  padding-top: 46px;
+  padding-top: 5%;
   /*color: grey;*/
   font-size: 50px;
   /*font-family: 'PT Sans Narrow', sans-serif;*/
@@ -44,21 +47,10 @@ body {
   max-width: 125px;
   /*border-radius: 50%;*/
   border: 2px solid #D5D4D2;
+  margin-top: 12%;
 }
 
-#nav-stuff {
-  /*background-color: inherit;*/
-  /*padding-top: 5px;
-  padding-left: 5px;*/
-  margin-left: 0px;
-  margin-right: 0px;
-  padding: 0px;
-}
-
-@media (min-width: 400px) {
-  .hero {
-
-  }
+@media (min-width: 370px) {
   .name {
     font-size: 60px;
   }
@@ -73,12 +65,27 @@ body {
   }
   .name {
     font-size: 75px;
-
+    padding-top: 3%;
   }
   .hero h4 {
     font-size: 23px;
   }
   .profilepic {
     max-width: 200px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .profilepic {
+    max-width: 250px;
+  }
+  .name {
+    padding-top: 2%;
+  }
+}
+
+@media (min-width: 1250px) {
+  .name {
+    padding-top: 1%;
   }
 }
