@@ -50,8 +50,26 @@ body {
   margin-top: 12%;
 }
 
-.carousel-images {
-  max-height: 100vh;
+.section-heading {
+  text-align: center;
+  font-size: 50px;
+}
+
+.carousel-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1280px;
+
+}
+
+.carousel-image img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /*min-height: 60%;*/
+  width: 100%;
+
 }
 
 @media (min-width: 370px) {
