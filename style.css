@@ -27,16 +27,16 @@ body {
   background-size: cover;
   background-position: center center;
   margin: 0 auto;
-  font-family: 'Open Sans Condensed', sans-serif;
+  /*font-family: 'Open Sans Condensed', sans-serif;*/
   text-align: center;
   z-index: 0;
+  margin-bottom: 20px;
 }
 
 .name {
   margin: 0 auto;
   padding-top: 5%;
-  /*color: grey;*/
-  font-size: 50px;
+  /*font-size: 50px;*/
   /*font-family: 'PT Sans Narrow', sans-serif;*/
   /*font-family: 'Quicksand', sans-serif;*/
   /*font-family: 'Maven Pro', sans-serif;*/
@@ -53,6 +53,11 @@ body {
 .section-heading {
   text-align: center;
   font-size: 50px;
+  margin-bottom: 40px;
+}
+
+.my-profile {
+  height: 100vh;
 }
 
 .carousel-image {
@@ -83,7 +88,7 @@ body {
 
 @media (min-width: 600px) {
   .hero {
-
+    padding-bottom: 50px;
   }
   .name {
     font-size: 75px;
@@ -109,5 +114,8 @@ body {
 @media (min-width: 1250px) {
   .name {
     padding-top: 1%;
+  }
+  .section-heading {
+    font-size:
   }
 }
