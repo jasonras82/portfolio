@@ -14,10 +14,16 @@ body {
   background-color: #fff;
   padding-bottom: 70px;
   font-family: 'Open Sans Condensed', sans-serif;
+  padding-top: 50px;
 }
 
 .navbar {
   margin-bottom: 0px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 1000;
 }
 
 .hero {
@@ -33,9 +39,23 @@ body {
   margin-bottom: 20px;
 }
 
+/*.hero {
+  width: 90%;
+  height: calc(90vh - 50px);
+  background-image: url("../images/mount-timpanogos-bw.jpg");
+  background-size: cover;
+  background-position: center center;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 0;
+  margin-bottom: 5vh;
+  margin-top: 5vh;
+}*/
+
 .name {
   margin: 0 auto;
   padding-top: 5%;
+  /*color: #18669A;*/
   /*font-size: 50px;*/
   /*font-family: 'PT Sans Narrow', sans-serif;*/
   /*font-family: 'Quicksand', sans-serif;*/
@@ -43,11 +63,19 @@ body {
   /*font-family: 'Abel', sans-serif;*/
 }
 
+.title {
+  /*color: #18669A;*/
+}
+
 .profilepic {
-  max-width: 125px;
-  /*border-radius: 50%;*/
+  /*max-width: 125px;*/
+  border-radius: 2%;
   border: 2px solid #D5D4D2;
-  margin-top: 12%;
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
+  /*display: block;*/
+  /*margin-top: 12%;*/
+  /*text-align: center;*/
 }
 
 .section-heading {
@@ -70,10 +98,17 @@ body {
   font-weight: 300;
   line-height: 1;
   letter-spacing: -1px;
+  font-size: 40px;
+  margin-top: 0px;
+}
+
+.featurette-text p {
+  font-size: 16px;
 }
 
 .featurette-divider {
-  margin: 40px 0 40px 0;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .circle-profile {
@@ -110,9 +145,9 @@ body {
   .name {
     font-size: 60px;
   }
-  .profilepic {
+  /*.profilepic {
     max-width: 175px;
-  }
+  }*/
 }
 
 @media (min-width: 600px) {
@@ -126,20 +161,35 @@ body {
   .hero h4 {
     font-size: 23px;
   }
-  .profilepic {
+  /*.profilepic {
     max-width: 200px;
+  }*/
+}
+
+@media (min-width: 992px) {
+  .featurette-image {
+    margin-top: 25px;
   }
 }
 
 @media (min-width: 1000px) {
-  .profilepic {
+  /*.profilepic {
     max-width: 250px;
-  }
+  }*/
   .name {
     padding-top: 2%;
   }
-  .featurette-text {
+  /*.featurette-text {
     margin-top: 80px;
+  }*/
+}
+
+@media (min-width: 1200px) {
+  .featurette-heading {
+    margin-top: 15px;
+  }
+  .featurette-image {
+    margin-top: 0px;
   }
 }
 
@@ -147,7 +197,7 @@ body {
   .name {
     padding-top: 0%;
   }
-  .section-heading {
+  /*.section-heading {
     font-size:
-  }
+  }*/
 }
