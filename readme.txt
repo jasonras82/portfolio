@@ -9,3 +9,40 @@ Having just completed an intensive 16-week full-stack web development boot camp 
 My ideal role is one that allows me to continue to nurture my new-found passion for coding. I am known for my ability to learn and contribute quickly and I’m confident I will be able to do so in almost any organization.<br><br>
 
 I’m currently searching for opportunities in full-stack, front-end, or back-end web development.
+
+
+Marketing Skills:
+SV
+Selligent
+Aprimo
+Eloqua
+Mailchimp
+Qualtrics
+Return Path
+Target
+Office
+Tableau
+Tealium
+
+
+Joint:
+TargetProcess
+Confluence
+Slack
+Target
+
+
+Dev Skills:
+HTML
+CSS
+JS
+jquery
+Angular
+Node
+git
+npm
+Express
+Postgres
+ms sql server
+bootstrap
+cmd/bash
