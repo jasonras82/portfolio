@@ -91,7 +91,7 @@ body {
 }
 
 .my-profile {
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 
 .featurette-heading {
@@ -214,7 +214,7 @@ body {
 
 @media (min-width: 1250px) {
   .name {
-    padding-top: 0%;
+    padding-top: 4%;
   }
   /*.section-heading {
     font-size:
