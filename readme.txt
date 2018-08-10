@@ -22,27 +22,34 @@ Return Path
 Target
 Office
 Tableau
-Tealium
 
 
 Joint:
+Tealium
+Agile Central
 TargetProcess
 Confluence
 Slack
 Target
+Adobe Analytics
 
 
 Dev Skills:
-HTML
-CSS
+Languages I speak:
+HTML5
+CSS3
 JS
 jquery
-Angular
-Node
-git
-npm
+Angular 1.5
+Node.js
 Express
 Postgres
+
+Dev Tools:
+Atom
+GitHub
+BitBucket
+terminal
+npm
 ms sql server
 bootstrap
-cmd/bash
